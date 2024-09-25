@@ -9,14 +9,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.grid-template-1 {
+
+/* Grid Template 1 Design  */
+
+.grid-template {
     width: 80%;
     margin: 0 auto;
-}
-
-.grid-template-1 img {
-    width: 100%;
-    height: auto;
 }
 
 .grid-template-1 h1 {
@@ -28,4 +26,54 @@ body {
     letter-spacing: 1.2px;
     font-size: 25px;
     
+}
+
+.template-1-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.layout1 {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.layout1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.layout1 h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.layout1 p {
+    margin-bottom: 15px;
+}
+
+.layout1 button {
+    border: none;
+    padding: 10px 15px;
+    width: 50%;
+    background-color: darkblue;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.layout1 button:hover {
+    background-color: lightblue;
+    color: darkblue;
+    transition: 0.4s;
 }
