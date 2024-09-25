@@ -6,6 +6,7 @@
 body {
     max-width: 1080px;
     margin: 0 auto;
+    font-family: "Roboto", sans-serif;
 }
 
 .grid-template-1 {
