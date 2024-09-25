@@ -7,3 +7,24 @@ body {
     max-width: 1080px;
     margin: 0 auto;
 }
+
+.grid-template-1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid-template-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-template-1 h1 {
+    color: darkblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-size: 25px;
+    
+}
