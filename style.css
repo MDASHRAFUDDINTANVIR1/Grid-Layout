@@ -17,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+.grid-template-1 {
+    margin-bottom: 40px;
+}
+
 .grid-template-1 h1 {
     color: darkblue;
     padding: 20px;
@@ -77,4 +81,33 @@ body {
     background-color: lightblue;
     color: darkblue;
     transition: 0.4s;
+}
+
+
+
+/* Grid Layout 2 Design  */
+
+
+.grid-template-2 {
+    text-align: center;
+}
+
+.grid-template-2 h2 {
+    color: darkblue;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.template2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.flag img {
+    width: 100%;
+    height: auto;
 }
