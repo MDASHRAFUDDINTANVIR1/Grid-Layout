@@ -150,18 +150,38 @@ body {
     color: darkblue;
 }
 
-.layout3 {
+.layout4 p {
+    text-align: center;
+    font-size: 20px;
+
+}
+.layout4 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
     grid-template-areas: 
-    "header header header"
-    "main main sidebar"
-    "footer footer footer";
+    "head head head head"
+    "content content content side"
+    "foot foot foot foot";
     gap: 15px;
+    padding: 15px;
 }
 
-.header, .main, .sidebar, .footer {
+.head, .content, .side, .foot {
     padding: 30px;
     box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+}
+
+.head {
+    grid-area: head;
+}
+.content {
+    grid-area: content;
+}
+.side {
+    grid-area: side;
+}
+
+.foot {
+    grid-area: foot;
 }
