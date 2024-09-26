@@ -188,4 +188,60 @@ body {
 
 /* Fourth Layout Practice  */
 
+.grid-template-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px;
+    gap: 15px;
+}
 
+.part1 {
+    background-color: lightcoral;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.part2 {
+    background-color: lightgreen;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.part3 {
+    background-color: lightskyblue;
+    padding: 15px;
+    
+}
+.part4 {
+    background-color: lightseagreen;
+    padding: 15px;
+}
+
+.part5 {
+    background-color: yellow;
+    padding: 15px;
+    
+}
+.part6 {
+    background-color: rgb(26, 214, 139);
+    padding: 15px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
+.part7 {
+    background-color: rgb(174, 89, 9);
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+
+}
+.part8 {
+    background-color: rgb(104, 66, 194);
+    padding: 15px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
