@@ -3,4 +3,14 @@
     .template-1-box {
         grid-template-columns: repeat(1, 1fr);
     }
+    .layout4 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "head"
+        "content"
+        "side"
+        "foot"
+        ;
+    }
 }
