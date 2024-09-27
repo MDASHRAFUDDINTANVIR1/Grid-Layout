@@ -9,6 +9,7 @@
     <!-- Style Sheet Adding  -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="navbar.css">
 
     <!-- Adding Google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +18,25 @@
 
 </head>
 <body>
+
+    <!-- Nested Navbar Making  -->
+    <section class="menu">
+        <nav class="navbar">
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="has-submenu">
+                    <a href="#">Services</a>
+                    <ul class="submenu">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
 
     <!-- Grid layout Practice 1  -->
     <section class="grid-template-1 grid-template">

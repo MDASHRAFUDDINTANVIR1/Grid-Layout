@@ -1,5 +1,14 @@
 
 @media only screen and (max-width: 768px) {
+
+    .navmenu ul {
+        flex-direction: column;
+        
+    }
+    .navmenu ul li {
+        margin-bottom: 15px;
+
+    }
     .template-1-box {
         grid-template-columns: repeat(1, 1fr);
     }
