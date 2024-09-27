@@ -1,7 +1,6 @@
 .menu {
     width: 80%;
     margin: 20px auto;
-
 }
 
 .navbar {
@@ -32,7 +31,6 @@
     background-color: lightskyblue;
     color: darkblue;
     border-radius: 5px;
-
 }
 
   /* Styles for the submenu */
@@ -53,18 +51,18 @@
     text-align: left;
 }
 
+/* Show submenu when hovering over the parent menu */
 
-  /* Show submenu when hovering over the parent menu */
 .has-submenu:hover .submenu {
     display: block;
 }
 
   /* Responsive design for mobile */
+
 @media (max-width: 600px) {
     .main-menu {
     grid-template-columns: 1fr;
     }
-
     .submenu {
     position: static;
     }
